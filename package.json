@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "md5": "^2.0.0",
+    "request": "^2.61.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanomi/node-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanomi/node-server/issues"
+  },
+  "homepage": "https://github.com/sanomi/node-server#readme",
+  "description": ""
+}
