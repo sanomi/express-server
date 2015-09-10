@@ -20,6 +20,7 @@ app.get('/gravatarUrl/*', (req,res,next) => {
 app.get('/', (req,res,next) => {
 		res.statusCode = 200;
 	fun = req.url.split('/');
+	res.end('The world is your oyster.')
 })
 app.listen(PORT, function(){
 	console.log('server now listening on port ' + PORT + ' ! ;)')
